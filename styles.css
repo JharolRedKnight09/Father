@@ -1,0 +1,60 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #e3f2fd;
+    font-family: Arial, sans-serif;
+}
+
+.fixed {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #1976d2;
+}
+
+.word {
+    display: flex;
+    gap: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.word span {
+    color: #1976d2;
+    transition: 0.3s;
+}
+
+.word span.active {
+    color: #ff9800;
+    transform: scale(1.5);
+}
+
+.card {
+    width: 90%;
+    max-width: 350px;
+    background-color: #64b5f6;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    overflow: hidden;
+    cursor: pointer;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+.cover {
+    font-size: 20px;
+    padding: 20px;
+    background-color: #1976d2;
+    color: white;
+}
+
+.message {
+    display: none;
+    font-size: 18px;
+    padding: 20px;
+}
